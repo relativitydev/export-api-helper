@@ -36,7 +36,7 @@ namespace ExportApiHelperSample
                 },
                 WorkspaceId = 1234567,
                 RelativityUrl = new Uri("https://relativity.mycompany.com"),
-                Credentials = new UsernamePasswordCredentials("me@mycompany.com", "MyPasswordDontDoThis987$"),
+                Credentials = new UsernamePasswordCredentials("me@mycompany.com", "Password goes here"),
                 ScaleFactor = 4
             };
 
