@@ -45,6 +45,7 @@ namespace ExportApiHelperBasic
             public void Before(ExportInitializationResults results)
             {
                 Console.WriteLine("Before");
+                Console.WriteLine();
                 _fieldData = results.FieldData;
             }
 
@@ -55,20 +56,24 @@ namespace ExportApiHelperBasic
                     Console.WriteLine(_fieldData[i].Name + ": " + item.Values[i]);
                 }
 
+                Console.WriteLine();
+
                 return true;
             }
 
             public void Error(string message, Exception exception)
             {
                 Console.WriteLine("Error "+message);
+                Console.WriteLine();
             }
 
             public void After(bool complete)
             {
                 Console.WriteLine("After");
+                Console.WriteLine();
             }
 
-        public bool TheadSafe => false;
+            public bool TheadSafe => false;
         }
 
     }
