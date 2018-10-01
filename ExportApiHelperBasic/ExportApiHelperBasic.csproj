@@ -34,16 +34,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Relativity.Kepler, Version=1.0.1.445, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.ObjectManager.9.7.99.15\lib\Relativity.Kepler.dll</HintPath>
+      <HintPath>..\packages\Relativity.ObjectManager.9.7.74.3\lib\Relativity.Kepler.dll</HintPath>
     </Reference>
-    <Reference Include="Relativity.Services.DataContracts, Version=9.7.99.15, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.ObjectManager.9.7.99.15\lib\Relativity.Services.DataContracts.dll</HintPath>
+    <Reference Include="Relativity.Services.DataContracts, Version=9.7.74.3, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.ObjectManager.9.7.74.3\lib\Relativity.Services.DataContracts.dll</HintPath>
     </Reference>
-    <Reference Include="Relativity.Services.Interfaces, Version=9.7.99.15, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.ObjectManager.9.7.99.15\lib\Relativity.Services.Interfaces.dll</HintPath>
+    <Reference Include="Relativity.Services.Interfaces, Version=9.7.74.3, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.ObjectManager.9.7.74.3\lib\Relativity.Services.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="Relativity.Services.ServiceProxy, Version=1.0.1.392, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.ObjectManager.9.7.99.15\lib\Relativity.Services.ServiceProxy.dll</HintPath>
+      <HintPath>..\packages\Relativity.ObjectManager.9.7.74.3\lib\Relativity.Services.ServiceProxy.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

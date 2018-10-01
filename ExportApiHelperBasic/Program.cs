@@ -7,7 +7,6 @@ using Relativity.Services.Objects.DataContracts;
 using Relativity.Services.ServiceProxy;
 using FieldRef = Relativity.Services.Objects.DataContracts.FieldRef;
 
-
 namespace ExportApiHelperBasic
 {
     class Program
