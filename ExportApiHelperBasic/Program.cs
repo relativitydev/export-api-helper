@@ -27,9 +27,9 @@ namespace ExportApiHelperBasic
                     },
                     MaxCharactersForLongTextValues = 100 * 1024
                 },
-                WorkspaceId = 1234567,
-                RelativityUrl = new Uri("https://relativity.mycompany.com"),
-                Credentials = new UsernamePasswordCredentials("me@mycompany.com", "Password goes here"),
+                WorkspaceId = 1082531,
+                RelativityUrl = new Uri("https://fest2018-current-sandbox.relativity.one"),
+                Credentials = new UsernamePasswordCredentials("test-user@fest.com", "Password goes here"),
                 ScaleFactor = 4
             };
 
