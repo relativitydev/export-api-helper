@@ -40,6 +40,6 @@ namespace Relativity.ObjectManager.ExportApiHelper
         /// the handler will be called from a single thread although document export will
         /// still occur in multiple threads. 
         /// </summary>
-        bool TheadSafe { get; }
+        bool ThreadSafe { get; }
     }
 }

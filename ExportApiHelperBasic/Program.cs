@@ -16,7 +16,9 @@ namespace ExportApiHelperBasic
 
             ExportApiHelperConfig config = new ExportApiHelperConfig()
             {
-                BlockSize = 1000,
+                RelativityUrl = new Uri("https://fest2018-current-sandbox.relativity.one"),
+                WorkspaceId = 1082531,
+                Credentials = new UsernamePasswordCredentials("test-user@fest.com", "Password goes here"),
                 QueryRequest = new QueryRequest()
                 {
                     Fields = new FieldRef[]
@@ -26,10 +28,8 @@ namespace ExportApiHelperBasic
                     },
                     MaxCharactersForLongTextValues = 100 * 1024
                 },
-                WorkspaceId = 1082531,
-                RelativityUrl = new Uri("https://fest2018-current-sandbox.relativity.one"),
-                Credentials = new UsernamePasswordCredentials("test-user@fest.com", "Password goes here"),
-                ScaleFactor = 4
+              BlockSize = 1000,
+              ScaleFactor = 4
             };
 
             ExportApiHelper helper = config.Create();
@@ -72,7 +72,7 @@ namespace ExportApiHelperBasic
                 Console.WriteLine();
             }
 
-            public bool TheadSafe => false;
+            public bool ThreadSafe => false;
         }
 
     }

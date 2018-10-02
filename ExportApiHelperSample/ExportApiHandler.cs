@@ -79,7 +79,7 @@ namespace ExportApiHelperSample
             Console.WriteLine("ExportApiHandler Error called with message '" + message + "' and exception '" + exception?.Message + "'");
         }
 
-        public bool TheadSafe => true;
+        public bool ThreadSafe => true;
 
     }
 }

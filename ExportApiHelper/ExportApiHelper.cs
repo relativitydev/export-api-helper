@@ -177,7 +177,7 @@ namespace Relativity.ObjectManager.ExportApiHelper
                 // Use only a single thread if the handler has not
                 // declared itself as thread safe.
 
-                int handlerCallerThreadCount = _userHandler.TheadSafe ? _scaleFactor : 1;
+                int handlerCallerThreadCount = _userHandler.ThreadSafe ? _scaleFactor : 1;
 
                 for (int i = 0; i < handlerCallerThreadCount; i++)
                 {
